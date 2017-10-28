@@ -1,5 +1,5 @@
 {
-  "name" : "letscodehu/dummy-persistence-layer",
+  "name" : "letscodehu/dummy-service-layer",
   "version" : "1.0.0",
   "require" : {
     "letscodehu/persistence-layer-api" : "^1.0.0",
