@@ -1,0 +1,23 @@
+{
+  "name" : "letscodehu/dummy-persistence-layer",
+  "version" : "1.0.0",
+  "require" : {
+    "letscodehu/persistence-layer-api" : "^1.0.0",
+    "letscodehu/service-layer-api" : "^1.0.0"
+  },
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url" : "https://github.com/letscodehu/persistence-layer-api"
+    },
+    {
+      "type" : "vcs",
+      "url" : "https://github.com/letscodehu/service-layer-api"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Letscodehu\\" : "src/"
+    }
+  }
+}
